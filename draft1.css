@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0%;
+    color: aliceblue;
+}
+
+.title-left {
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.title-right a {
+    color: white;
+    text-decoration: none;
+    font-family: Chivo;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin: 0px 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+hr {
+    border: 1px solid white;
+    width: 100%;
+
+}
+
+.main1 h1 {
+    font-family: Chivo;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 70%;
+    margin-left: 250px;
+}
+
+.main1 img {
+    width: 1344px;
+    height: 672px;
+    align-items: center;
+    margin-left: 100px;
+    border-radius: 56px;
+
+
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin-left: 90px;
+}
+
+.main2 {
+    margin-top: 100px;
+}
+
+.project-grid h4 {
+    color: aliceblue;
+    opacity: 60%;
+
+
+}
+
+.project-grid img {
+    width: 426px;
+    height: 279px;
+    border: 1px;
+
+}
+
+.contact h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact input {
+    width: 462px;
+    height: 35px;
+    padding: 6px 12px 6px 12px;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid white;
+    margin-left: 470px;
+    font-size: 20px;
+    background-color: black;
+}
+
+.contact button {
+    width: 126px;
+    height: 50px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    background-color: rgba(146, 141, 211, 1);
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+
+.footer {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer .con-left {
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 95px;
+    opacity: 60%;
+
+}
+
+.footer .con-right button{
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin-right: 60px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 10px;
+
+
+}
