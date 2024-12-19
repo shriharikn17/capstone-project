@@ -154,3 +154,14 @@ hr {
 
 
 }
+
+.image{
+    align-items: center;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+.form-contact{
+    display: flex;
+    
+}
